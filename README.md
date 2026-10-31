@@ -393,7 +393,7 @@ clinical-rag/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/<Harmansaini83>/clinical-rag.git
+git clone https://github.com/Harmansaini83/clinical-rag.git
 cd clinical-rag
 
 python -m venv venv
@@ -589,7 +589,7 @@ Released under the MIT License. See [`LICENSE`](LICENSE).
 Owner and maintainer of this repository
 
 [![Email](https://img.shields.io/badge/Email-harmanajitsinghsaini16%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:harmanajitsinghsaini16@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github&logoColor=white)](https://github.com/<Harmansaini83>)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github&logoColor=white)](https://github.com/Harmansaini83)
 
 *Questions, feedback and collaboration ideas are welcome. Open an issue or send an email.*
 
