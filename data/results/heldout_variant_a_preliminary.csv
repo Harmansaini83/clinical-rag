@@ -1,0 +1,14 @@
+Metric,Variant A (Held-Out Preliminary)
+Benchmark split,heldout
+Run ID,run_A_29dae73de52f
+Questions evaluated,40
+Status match,32/40 (80.0%)
+Processing errors,0/40 (0.0%)
+Appropriate abstention,8/8 (100.0%)
+Appropriate scope refusal,4/4 (100.0%)
+Mean latency,9.07s
+p50 latency,6.96s
+p95 latency,21.03s
+Total tokens,"64,174"
+Groq calls,33
+Notes,"Preliminary generalisation check only; Variants B, C, and D were not evaluated on the held-out set due to daily provider quota limits."

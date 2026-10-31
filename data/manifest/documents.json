@@ -1,0 +1,95 @@
+{
+  "30658e19-8e6e-49aa-a007-e414224797c5_v22": {
+    "document_id": "30658e19-8e6e-49aa-a007-e414224797c5_v22",
+    "set_id": "30658e19-8e6e-49aa-a007-e414224797c5",
+    "spl_version": "22",
+    "effective_date": "20261026",
+    "product_title": "METFORMIN HYDROCHLORIDE TABLET [REMEDYREPACK INC.]",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/30658e19-8e6e-49aa-a007-e414224797c5.xml",
+    "retrieved_at": "2026-10-29T12:51:13.189034+00:00",
+    "source_hash": "137afa1fd900da0541963c05b920c33102e2bf921532f7d1abda4e4f78c4cdd0",
+    "raw_file": "data\\raw\\30658e19-8e6e-49aa-a007-e414224797c5_v22.xml",
+    "xml_title_text": "These highlights do not include all the information needed to use METFORMIN HYDROCHLORIDE TABLETS safely and effectively. See full prescribing information for METFORMIN HYDROCHLORIDE TABLETS. METFORMIN HYDROCHLORIDE tablets, for oral use Initial U.S. Approval: 1995",
+    "label_id": "L001",
+    "ingredient": "metformin hydrochloride",
+    "labeler": "RemedyRepack Inc.",
+    "formulation": "tablet",
+    "route": "oral",
+    "extraction": {
+      "extractor_version": "extract-v1",
+      "max_passage_words": 300,
+      "extracted_at": "2026-10-30T05:35:56.358337+00:00",
+      "n_passages": 11,
+      "sections_found": {
+        "renal_impairment": [
+          {
+            "section_path": "2 DOSAGE AND ADMINISTRATION > 2.3 Recommendations for Use in Renal Impairment",
+            "loinc": "42229-5",
+            "passages": 1,
+            "source_chars": 668,
+            "extracted_chars": 678
+          },
+          {
+            "section_path": "8 USE IN SPECIFIC POPULATIONS > 8.6 Renal Impairment",
+            "loinc": "42229-5",
+            "passages": 1,
+            "source_chars": 452,
+            "extracted_chars": 452
+          }
+        ],
+        "contraindications": [
+          {
+            "section_path": "4 CONTRAINDICATIONS",
+            "loinc": "34070-3",
+            "passages": 1,
+            "source_chars": 288,
+            "extracted_chars": 294
+          }
+        ],
+        "warnings_precautions": [
+          {
+            "section_path": "5 WARNINGS AND PRECAUTIONS > 5.1 Lactic Acidosis",
+            "loinc": "42229-5",
+            "passages": 3,
+            "source_chars": 6251,
+            "extracted_chars": 6269
+          },
+          {
+            "section_path": "5 WARNINGS AND PRECAUTIONS > 5.2 Vitamin B 12Deficiency",
+            "loinc": "42229-5",
+            "passages": 1,
+            "source_chars": 809,
+            "extracted_chars": 809
+          },
+          {
+            "section_path": "5 WARNINGS AND PRECAUTIONS > 5.3 Hypoglycemia with Concomitant Use with Insulin and Insulin Secretagogues",
+            "loinc": "42229-5",
+            "passages": 1,
+            "source_chars": 420,
+            "extracted_chars": 420
+          },
+          {
+            "section_path": "5 WARNINGS AND PRECAUTIONS > 5.4 Macrovascular Outcomes",
+            "loinc": "42229-5",
+            "passages": 1,
+            "source_chars": 138,
+            "extracted_chars": 138
+          }
+        ],
+        "drug_interactions": [
+          {
+            "section_path": "7 DRUG INTERACTIONS",
+            "loinc": "34073-7",
+            "passages": 2,
+            "source_chars": 2408,
+            "extracted_chars": 2433
+          }
+        ]
+      },
+      "sections_missing": [],
+      "header_only_skipped": [
+        "5 WARNINGS AND PRECAUTIONS"
+      ]
+    }
+  }
+}

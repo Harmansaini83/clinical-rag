@@ -1,0 +1,24 @@
+# Controlled Clinical RAG Benchmark: Variant A vs Variant C
+
+- **Variant A Run ID**: `run_A_f4abde8f0bf9` (Dense Retrieval + Guarded Generation)
+- **Variant C Run ID**: `run_C_641db18ad808` (Dense Retrieval + Local Deterministic Evidence Gate + Guarded Generation)
+- **Model**: openai/gpt-oss-120b via Groq
+
+| Metric | Variant A | Variant C | Difference |
+| :--- | :--- | :--- | :--- |
+| Status match | 17 / 20 (85.0%) | 17 / 20 (85.0%) | 0.0% |
+| Evidence hit@5 | 8 / 10 (80.0%) | 8 / 10 (80.0%) | 0.0% |
+| Required-evidence coverage | 8 / 10 (80.0%) | 8 / 10 (80.0%) | 0.0% |
+| Answerable questions answered | 8 / 10 (80.0%) | 8 / 10 (80.0%) | 0.0% |
+| Appropriate abstention | 4 / 4 (100.0%) | 4 / 4 (100.0%) | 0.0% |
+| Appropriate clarification | 2 / 3 (66.7%) | 2 / 3 (66.7%) | 0.0% |
+| Appropriate scope refusal | 3 / 3 (100.0%) | 3 / 3 (100.0%) | 0.0% |
+| Over-refusal | 2 / 10 (20.0%) | 2 / 10 (20.0%) | 0.0% |
+| Processing errors | 0 (0.0%) | 0 (0.0%) | 0.0% |
+| Mean latency | 5.420s | 3.985s | -1.436s |
+| p50 latency | 1.933s | 1.036s | -0.897s |
+| p95 latency | 19.313s | 14.771s | -4.541s |
+| Mean total tokens | 1641.7 | 1430.9 | -210.8 |
+| Total tokens | 32,833 | 28,618 | -4,215 |
+| Groq generation calls | 16 | 14 | -2 |
+| Gate avoided calls | 0 (no gate) | 2 | +2 |

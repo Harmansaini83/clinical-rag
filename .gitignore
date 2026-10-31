@@ -1,10 +1,13 @@
 
 venv/
+.venv/
 .env
 __pycache__/
 *.pyc
 .pytest_cache/
 chroma_db/
+data/app.db
 *.db
 *.sqlite
 .vscode/
+*.log

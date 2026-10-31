@@ -1,0 +1,21 @@
+{
+  "metformin": {
+    "canonical_name": "metformin hydrochloride",
+    "label_ids": ["L001"],
+    "aliases": [
+      "metformin",
+      "metformin hydrochloride",
+      "metformin hcl",
+      "metformin tablet",
+      "metformin hydrochloride tablet"
+    ]
+  },
+  "insulin glargine": {
+    "canonical_name": "insulin glargine",
+    "label_ids": [],
+    "aliases": [
+      "insulin glargine",
+      "lantus"
+    ]
+  }
+}
